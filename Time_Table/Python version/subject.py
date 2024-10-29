@@ -16,7 +16,7 @@ class SubjectTable:
         self.TeacherName = TeacherName
         
     def readData(self):
-        file_path = 'Python version\TKB.csv'
+        file_path = 'Time_Table\Python version\TKB.csv'
         print(f"Đường dẫn tệp: {os.path.abspath(file_path)}")
         try:
             with open(file_path, mode='r') as file:

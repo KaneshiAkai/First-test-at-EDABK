@@ -46,7 +46,7 @@ class Teacher:
     def readData(self):
         try:
             print('Tri dep trai tuyet voi !!!')
-            with open('Python version\giaovienData.csv', mode='r') as file:
+            with open('Time_Table\Python version\giaovienData.csv', mode='r') as file:
                 for line in file:
                     name, telNum, subject1, subject2 = line.strip().split(',')
                     new_teacher = Teacher(name, telNum, subject1, subject2)
